@@ -1,0 +1,87 @@
+{
+  "clientes": [
+    {
+      "id": "dc56fc4f-28c7-4ae0-9931-325ae9af7998",
+      "nomeCompleto": "Patrick Nascimento",
+      "nome": "Patrick",
+      "sobrenome": "Nascimento",
+      "cpf": "16857141703",
+      "rg": "296620131",
+      "email": "patrickndeoliveira@gmail.com"
+    },
+    {
+      "id": "a8341731-becc-4b21-a49c-d800f1682312",
+      "nomeCompleto": "Adriano da Silva",
+      "nome": "Adriano",
+      "sobrenome": "Da Silva",
+      "cpf": "03756716767",
+      "rg": "459987146",
+      "email": "adrianosdeoliveira@gmail.com"
+    },
+    {
+      "id": "e332a284-3e2c-405e-899c-56aa6fe8a264",
+      "nomeCompleto": "Maria Luíza de Oliveira",
+      "nome": "Maria Luíza",
+      "sobrenome": "De Oliveira",
+      "cpf": "18224049752",
+      "rg": "78994057",
+      "email": "marialuizaogx@gmail.com"
+    },
+    {
+      "id": "9ec4bb94-1f89-4c50-8b25-c72a0193e7fc",
+      "nomeCompleto": "Patricia Ramos",
+      "nome": "Patricia",
+      "sobrenome": "Ramos",
+      "cpf": "04879536410",
+      "rg": "0588704698",
+      "email": "patyderamos@gmail.com"
+    }
+  ],
+  "ordens_servico": [
+    {
+      "id": "62caa08f-4c70-4d2c-bc7b-6895751daf55",
+      "pedido": "Adicionar relatório de vendas",
+      "descricao": "Preciso de um relatório de vendas de produtos para condôminos dentro do projeto",
+      "data_pedido": "2020-02-08",
+      "cliente":{
+        "id": "dc56fc4f-28c7-4ae0-9931-325ae9af7998",
+        "nomeCompleto": "Patrick Nascimento",
+        "nome": "Patrick",
+        "sobrenome": "Nascimento",
+        "cpf": "16857141703",
+        "rg": "296620131",
+        "email": "patrickndeoliveira@gmail.com"
+      }
+    },
+    {
+      "id": "e71ce414-8748-4f29-953c-9b7ccb45c095",
+      "pedido": "Adicionar campo de preço no cadastro de unidades",
+      "descricao": "Preciso cadastrar o preço nas unidades do meu serviço",
+      "data_pedido": "2022-05-08",
+      "cliente": {
+        "id": "9ec4bb94-1f89-4c50-8b25-c72a0193e7fc",
+        "nomeCompleto": "Patricia Ramos",
+        "nome": "Patricia",
+        "sobrenome": "Ramos",
+        "cpf": "04879536410",
+        "rg": "0588704698",
+        "email": "patyderamos@gmail.com"
+      }
+    },
+    {
+      "id": "e71ce414-8748-4f29-953c-9b7ccb45c095",
+      "pedido": "Criar aplicativo para sindico",
+      "descricao": "Preciso de um aplicativo para os sindicos",
+      "data_pedido": "2022-05-12",
+      "cliente": {
+        "id": "9ec4bb94-1f89-4c50-8b25-c72a0193e7fc",
+        "nomeCompleto": "Patricia Ramos",
+        "nome": "Patricia",
+        "sobrenome": "Ramos",
+        "cpf": "04879536410",
+        "rg": "0588704698",
+        "email": "patyderamos@gmail.com"
+      }
+    }
+  ]
+}
